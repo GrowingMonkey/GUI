@@ -1,0 +1,70 @@
+@import url('./variables.less');
+table{
+  table-layout:fixed;
+}
+table tr td,.ant-table-thead > tr > th{
+  text-align: center;
+}
+.ant-table-row:hover{
+  cursor: pointer;
+}
+.ant-table-row:hover .action-bar{
+  display: block;
+}
+.ant-table-row:hover .sendNum{
+  display: none;
+}
+.out-table-header{
+  height: 42px;
+  line-height: 42px;
+  background-color: #f5f8fa;
+}
+.out-table-header span{
+  display: inline-block;
+  text-align: center;
+}
+.@{g-prefix}-table-inBody .ant-table-thead > tr > th{
+  background-color:@body-background;
+}
+.@{g-prefix}-table-muheader{
+  height: 42px;
+  line-height: 42px;
+  background-color: #fafafa;
+  padding: 0 24px;
+}
+.@{g-prefix}-table-muheader span{
+  display: inline-block;
+  float: left;
+}
+.@{g-prefix}-table-goodsName{
+  margin-top: -8px;
+  line-height: 2em;
+  .g-bold;
+}
+.@{g-prefix}-table-goodsName span{
+  font-weight: normal;
+  margin-left: 10px;
+}
+.@{g-prefix}-table-title{
+  text-align: center;
+  margin-top: 8px;
+  background-color: #fff;
+  padding: 12px 0;
+  position: relative;
+}
+.muTable table td{
+  background-color: #fafafa;
+}
+.muTable table tr.table-section td{
+  border-top: 10px solid #fff;
+}
+.muTable .ant-table-thead > tr.ant-table-row-hover > td,.muTable .ant-table-tbody > tr.ant-table-row-hover > td,.muTable .ant-table-thead > tr:hover > td,.muTable .ant-table-tbody > tr:hover > td{
+  background: #fafafa;
+}
+
+.@{g-prefix}-td-center,.ant-table-thead > tr > th.@{g-prefix}-td-center{
+  text-align: center;
+}
+.@{g-prefix}-td-left,.ant-table-thead > tr > th.@{g-prefix}-td-left{
+  text-align: left;
+}

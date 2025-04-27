@@ -1,0 +1,187 @@
+@import '~react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
+@import url('less/variables.less');
+@import url('less/reset.less');
+@import url('less/table.less');
+@import url('less/card.less');
+@import url('less/uploader.less');
+@import url('less/tab.less');
+@import url('less/giconfont.less');
+@import url('less/editor.less');
+@import url('less/print.less');
+
+.@{g-prefix}-no-marginBottom{
+  margin-bottom: 0;
+}
+.@{g-prefix}-pagination-right .ant-table-pagination{
+  margin-right: 12px;
+}
+.@{g-prefix}-block-center{
+  margin: 0 auto;
+}
+
+.@{g-prefix}-mainbg{
+  background-color: #fff;
+}
+.@{g-prefix}-oneLine{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.@{g-prefix}-icon-lic{
+  line-height: normal;
+}
+.@{g-prefix}-icon-lic:before{
+  font-family: 'gaia-fonts' !important;
+  content: "\e906";
+  color: #fba565;
+  margin-left: 12px;
+  line-height: 42px;
+  font-size: 22px;
+}
+.ant-menu-item-selected a{
+  .g-bold;
+}
+.action-bar{
+  display: none;
+  position: absolute;
+  width: 300px;
+  text-align: right;
+  right:24px;
+  top: -12px;
+}
+/*components*/
+.logo{
+  height: 62px;
+  width: 96px;
+  float: left;
+  background: url("../public/assets/images/gaia_white.png") no-repeat left center;
+}
+
+.@{g-prefix}-age{
+  padding: 5px;
+  margin: 12px 0 0 12px;
+  line-height: 10px;
+  background-color: #ff6b00;
+  border-radius: 3px;
+  color: #fff;
+}
+.@{g-prefix}-fontsize-large{
+  line-height: 2em;
+  font-size: @font-size-base + 4px;
+  .g-bold;
+}
+.@{g-prefix}-panel{
+  padding: 24px;
+  overflow: auto;
+}
+.@{g-prefix}-border-line{
+  border-bottom: 1px solid #f1f1f4;
+}
+.@{g-prefix}-status{
+  font-size: 24px;
+  color: #1d91fe;
+  line-height: 80px;
+}
+.@{g-prefix}-infoPanel{
+  margin: 24px 0;
+  h2{
+    font-size: 18px;
+    .g-bold;
+    margin-bottom: 16px;
+  }
+  p,li{
+    line-height: 2em;
+    .g-bold;
+  }
+}
+.@{g-prefix}-font-secondary{
+  color: #b8b8b8;
+  font-size: @font-size-base - 2px;
+}
+.@{g-prefix}-info-title{
+  width: 66px;
+  display: inline-block;
+  text-align:justify;
+  text-align-last:justify;
+  margin-right: 4px;
+}
+.@{g-prefix}-info-main{
+  font-size: @font-size-base;
+  .g-bold;
+  margin-bottom: 4px;
+}
+.@{g-prefix}-info-line{
+  font-size: @font-size-base;
+  .g-bold;
+  border-bottom: 1px solid #f5f5f5;
+  padding-bottom: 16px;
+  margin-bottom: 12px;
+}
+.@{g-prefix}-topAndBottom-border{
+  padding: 24px 0;
+  border-top: 1px solid #edf0f2;
+  border-bottom: 1px solid #edf0f2;
+}
+
+.@{g-prefix}-title-button{
+  position: absolute;
+  right:24px;
+  top:8px;
+}
+
+.@{g-prefix}-price-large{
+  font-size: 28px;
+  .g-bold;
+  margin-right: 8px;
+}
+
+.@{g-prefix}-returnedInfo img{
+  margin-right: 5px;
+}
+
+.@{g-prefix}-modal-panel{
+  margin-left: 100px;
+  position: relative;
+}
+.@{g-prefix}-result-title{
+  font-size: @font-size-base;
+  .g-bold;
+  margin-bottom: 8px;
+}
+.@{g-prefix}-modal-icon{
+  font-size: 28px;
+  position: absolute;
+  left:-44px;
+}
+.@{g-prefix}-nav-section{
+  border-bottom: 1px solid #eceff1;
+}
+.@{g-prefix}-fl{
+  float: left;
+}
+.@{g-prefix}-rightMark p{
+  text-align: right;
+  font-size: @font-size-base;
+  line-height: 2em;
+}
+
+.@{g-prefix}-vLine{
+  border-left: 1px solid #fff;
+  height: 36px;
+  margin: 0 15px;
+}
+.@{g-prefix}-header-title{
+  font-size: @font-size-base + 2px;
+  color: #fff;
+}
+#section-to-print h2{
+  text-align: center;
+}
+.@{g-prefix}-article-title{
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.@{g-prefix}-article-content{
+  min-height: 480px;
+}

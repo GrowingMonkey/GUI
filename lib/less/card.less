@@ -1,0 +1,27 @@
+.@{g-prefix}-card{
+  background-color: #fff;
+  padding: 24px;
+  margin-bottom: 12px;
+  h3{
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #f5f5f5;
+    padding-bottom: 16px;
+    margin-bottom: 12px;
+  }
+  p{
+    line-height: 2em;
+  }
+  .@{g-prefix}-card-label{
+    width: 75px;
+    display: inline-block;
+    text-align:justify;
+    text-align-last:justify;
+    margin-right: 8px;
+    line-height: 1.5em;
+    &::after{
+      content: ":";
+      margin-left: 4px;
+    }
+  }
+}

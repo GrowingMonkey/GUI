@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'gaia-fonts';
+  src:  url('../../public/assets/fonts/gaia-fonts.eot?ugq6ro');
+  src:  url('../../public/assets/fonts/gaia-fonts.eot?ugq6ro#iefix') format('embedded-opentype'),
+    url('../../public/assets/fonts/gaia-fonts.ttf?ugq6ro') format('truetype'),
+    url('../../public/assets/fonts/gaia-fonts.woff?ugq6ro') format('woff'),
+    url('../../public/assets/fonts/gaia-fonts.svg?ugq6ro#gaia-fonts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body,.ant-layout{
+  background: @body-background;
+}
+
+.ant-table-row:hover{
+  cursor: default!important;
+}
+.ant-tabs-nav-container{
+  font-size: @font-size-base;
+}
+/*sider*/
+.ant-layout-sider,.ant-menu{
+  background-color: transparent;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+  background-color:#e8ebed;
+}
+.ant-menu-inline, .ant-menu-vertical{
+  border: none;
+}
+.ant-layout{
+  overflow: hidden!important;
+}

@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      "gui@1.2.29",
+      "E:\\project\\yiliubang\\gaia-react-provider"
+    ]
+  ],
+  "_from": "gui@1.2.29",
+  "_id": "gui@1.2.29",
+  "_inBundle": false,
+  "_integrity": "sha512-Q0JO3A7zLxaMepoXIn4bTfY3fWHIwxdulVG51/OGCU9oEjbDCTzMfB7c9UKHGcTK224a4YI2qT9u2myINrOrMQ==",
+  "_location": "/gui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "gui@1.2.29",
+    "name": "gui",
+    "escapedName": "gui",
+    "rawSpec": "1.2.29",
+    "saveSpec": null,
+    "fetchSpec": "1.2.29"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://192.168.1.10:4873/gui/-/gui-1.2.29.tgz",
+  "_spec": "1.2.29",
+  "_where": "E:\\project\\yiliubang\\gaia-react-provider",
+  "author": {
+    "name": "buxuku"
+  },
+  "dependencies": {
+    "antd": "^3.11.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "description": "a ui library for GAIA",
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-import": "^1.2.1",
+    "babel-plugin-transform-less": "0.0.1-beta.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "rimraf": "^2.5.0",
+    "style-loader": "^0.13.0"
+  },
+  "keywords": [
+    "react",
+    "gaia"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "gui",
+  "scripts": {
+    "compile": "rimraf lib && babel src --copy-files --source-maps --extensions .es6,.es,.jsx,.js --out-dir lib",
+    "dev": "rimraf lib && babel src --watch --copy-files --source-maps --extensions .es6,.es,.jsx --out-dir lib",
+    "start": "webpack-dev-server"
+  },
+  "version": "1.2.29"
+}
